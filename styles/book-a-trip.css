@@ -1,0 +1,309 @@
+.book-a-trip-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    position: relative;
+}
+
+.book-a-trip-content .cta {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 45%;
+}
+
+.book-a-trip-content .cta .description {
+    font-size: 1rem;
+    color: var(--color-primary-1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+}
+
+.book-a-trip-content .cta .title {
+    font-family: "Volkhov", serif;
+    font-size: 3rem;
+    color: var(--color-primary-2);
+    font-weight: 700;
+    text-align: start;
+    width: 80%;
+
+}
+
+
+.book-a-trip-content .cta .values {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.book-a-trip-content .cta .values .value {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+
+.book-a-trip-content .cta .values .value .banner {
+    background-color: var(--color-primary-3);
+    width: 5%;
+    width: 47px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+
+
+}
+
+.book-a-trip-content .cta .values .two .banner {
+    background-color: var(--color-primary-5);
+}
+
+.book-a-trip-content .cta .values .three .banner {
+    background-color: var(--color-primary-5);
+}
+
+.book-a-trip-content .cta .values .value .title {
+    font-size: 0.875rem;
+    color: var(--color-primary-1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.book-a-trip-content .cta .values .value .description {
+    font-size: 0.875rem;
+    color: var(--color-primary-1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: start;
+    width: 60%;
+}
+
+.book-a-trip-content .frame {
+    padding: 30px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    z-index: 98;
+    background-color: var(--color-neutral-1);
+}
+
+.book-a-trip-content .frame .info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.book-a-trip-content .frame .info .title {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.book-a-trip-content .frame .info .description .time,
+.book-a-trip-content .frame .info .description {
+    display: flex;
+    gap: 10px;
+}
+
+.book-a-trip-content .frame .info .description .time,
+.book-a-trip-content .frame .info .description .person {
+    color: var(--color-neutral-2);
+    font-size: 0.875rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+.book-a-trip-content .frame .info .description .time {
+    border-right: 2px solid var(--color-neutral-2);
+    padding: 0px 5px 0px 0px;
+}
+
+.book-a-trip-content .frame .info .icons {
+    display: flex;
+    gap: 20px;
+}
+
+.book-a-trip-content .frame .info .icons i {
+    background-color: var(--color-neutral-3);
+    color: var(--color-neutral-2);
+    padding: 10px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-a-trip-content .frame .info .bulding {
+    display: flex;
+    gap: 10px;
+    color: var(--color-neutral-2);
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+}
+
+.book-a-trip-content .frame .ongoing {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    background-color: var(--color-neutral-1);
+    right: -100px;
+    bottom: 50px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 18px;
+    padding: 20px;
+    width: 70%;
+    z-index: 99;
+
+}
+
+.book-a-trip-content .frame .ongoing .info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.book-a-trip-content .frame .ongoing .info .description {
+    color: var(--color-neutral-2);
+    font-size: 0.875rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.book-a-trip-content .frame .ongoing .info .title {
+    color: var(--color-neutral-4);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.book-a-trip-content .frame .ongoing .info .complete {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.book-a-trip-content .frame .ongoing .info .complete .completed {
+    color: var(--color-neutral-4);
+    font-size: 0.875rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.book-a-trip-content .frame .ongoing .complete .completed span {
+    color: var(--color-primary-6);
+}
+
+.progress-container {
+    width: 160px;
+    background-color: var(--color-neutral-5);
+    border-radius: 10px;
+    position: relative;
+}
+
+.progress-bar {
+    height: 5px;
+    width: 100px;
+    background-color: var(--color-primary-6); /* Cor roxa */
+    border-radius: 10px;
+    transition: width 0.4s ease;
+}
+
+.svgs-four {
+    position: absolute;
+    top: -120px;
+    right: 70px;
+    z-index: 0;
+}
+
+@media screen and (max-width: 1170px) {
+    .svgs-four {
+        display: none;
+    }
+
+    .book-a-trip-content {
+        flex-wrap: wrap;
+        
+        justify-content: start;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    } 
+
+    .book-a-trip-content .cta {
+        width: 100%;
+        text-align: start;
+        
+        gap: 20px;
+    }
+
+    .book-a-trip-content .cta .title {
+        
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .book-a-trip-content .cta .values {
+        text-align: start;
+        width: 100%;
+    }
+
+    .book-a-trip-content .cta .values .value {
+        width: 100%;
+    }
+
+    .book-a-trip-content .cta .values .value .banner {
+        padding: 5%;
+
+    }
+
+    .book-a-trip-content .cta .values .value .info {
+        align-items: start;
+        gap: 0px;
+    }
+
+    .book-a-trip-content .cta .values .value .info .description {
+        margin-top: 0;
+    }
+
+    .book-a-trip-content .frame {
+        align-items: start;
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    .book-a-trip-content .frame .banner {
+        width: 60%;
+    }
+    .book-a-trip-content .frame .ongoing {
+        right: -40px;
+        bottom: -60px;
+    }
+
+    .book-a-trip-content .cta .values .value .banner {
+        padding: 8%;
+
+    }
+
+    .book-a-trip-content .cta .values .value .info .description {
+        width: 100%;
+
+    }
+
+
+}

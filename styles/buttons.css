@@ -1,0 +1,122 @@
+.btn-login {
+    border: none;
+    background-color: transparent;
+    list-style: none;
+}
+
+.btn-login a {
+    text-decoration: none;
+    color: var(--color-primary-8);
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 600;
+}
+
+.btn-signup {
+    border: 2ps solid var(--color-primary-8);
+    padding: 5px 20px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: transparent;
+
+}
+
+.btn-signup a {
+    text-decoration: none;
+    color: var(--color-primary-8);
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 600;
+}
+
+.btn-find-more {
+    background-color: var(--color-primary-7);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.btn-find-more a {
+    text-decoration: none;
+    color: var(--color-neutral-1);
+    font-weight: 600;
+
+}
+
+.btn-language {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.btn-language .pt {
+    display: none;
+}
+
+.btn-play-demo {
+    background-color: var(--color-primary-9);
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-play-demo i {
+    color: var(--color-neutral-1);
+    padding: 10px;
+}
+
+.testimonials .buttons .btn-card, .destinations-content .destinations .buttons .btn-slide {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--color-neutral-6);
+}
+
+.testimonials .buttons .btn-prev, .destinations-content .destinations .buttons .slide-prev {
+    color: var(--color-neutral-7);
+}
+
+.subscribe-content .cta .subscribe .btn-subscribe {
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    border-radius: 10px;
+    border: none;
+    padding: 15px 20px;
+
+}
+
+.subscribe-content .cta .subscribe .btn-subscribe h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-align: center;
+
+    /* white */
+    color: var(--color-neutral-1);
+}
+    .subscribe-content .cta .subscribe .btn-subscribe {
+        transition: transform 0.2s ease;
+    }
+    
+    .subscribe-content .cta .subscribe .btn-subscribe.ping-animation {
+        animation: ping 0.4s ease forwards;
+    }
+
+    @keyframes ping {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    

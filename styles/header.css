@@ -1,0 +1,170 @@
+header {
+    width: 100%;
+    padding: 28px 8%;
+    position: sticky;
+    z-index: 99;
+    background-color: transparent;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    position: relative;
+
+}
+
+.navlogo svg {
+    width: 80%;
+}
+
+.nav-info {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    width: 70%;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.navlist {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.navitem a {
+    text-decoration: none;
+    color: var(--color-primary-8);
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 600;
+
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-language h1 {
+    color: var(--color-primary-8);
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.mobile-menu,
+.btn-mobile {
+    display: none;
+}
+
+.language-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 3%;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    max-height: 0;
+}
+
+.language-list h1 {
+    color: var(--color-primary-8);
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.language-list.show {
+    display: block;
+    max-height: 200px;
+    animation: slide-down 0s ease-out;
+}
+
+.language-list .lang-option {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+@keyframes slide-down {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@media screen and (max-width: 1170px) {
+    .language-list {
+        position: absolute;
+        right: 0;
+    }
+
+    .navlist {
+        display: none;
+    }
+
+    .mobile-menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-info {
+        display: flex;
+        justify-content: end;
+
+        
+    }
+
+    .buttons .btn-signup {
+        width: 100%;
+
+    }
+
+    } 
+
+    
+
+
+@media screen and (max-width: 440px) {
+    .language {
+        display: none;
+    }
+
+    .banner  {
+        display: none;
+    }
+
+    .navbar .buttons {
+        width: 200px;
+    }
+
+    .navbar .btn-signup {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .language-list.show {
+        max-height: 100px;
+    }
+
+    
+}
