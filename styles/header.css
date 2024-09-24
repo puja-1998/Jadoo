@@ -59,7 +59,7 @@ header {
 .btn-language h1 {
     color: var(--color-primary-8);
     font-family: "Open Sans", sans-serif;
-    font-size: 0.75rem;
+    font-size: 0.9375rem;
     font-weight: 500;
 }
 
@@ -134,7 +134,6 @@ header {
 
     .buttons .btn-signup {
         width: 100%;
-
     }
 
     } 
